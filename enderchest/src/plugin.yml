@@ -1,0 +1,15 @@
+name: EnderChestPlugin
+author: EricSiu
+main: me.eric.enderchest.Main
+version: 1.0
+api-version: 1.13
+commands:
+  enderchest:
+    description: A command lets you to open your ender chest anywhere.
+    aliases: [echest, enchest]
+    permission: enderchest.open
+    permission-message: You do not have permission enderchest.open
+permissions:
+  enderchest.open:
+    description: Allows you to use /enderchest
+    default: true
